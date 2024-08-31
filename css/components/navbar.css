@@ -1,0 +1,91 @@
+.navbar-brand img {
+  max-width: 120px;
+}
+
+.nav-item{
+	border-bottom: 1px solid #fff;
+}
+
+.nav-item a{
+	font-size: 1.1rem;
+  color: #fff;
+}
+
+.social .nav-item{
+	display:flex;
+	border-bottom: 1px solid #fff;
+	margin-bottom: 30px ;
+}
+
+.nav-link{
+	padding: 10px 10px;
+}
+
+.navbar-collapse {
+	padding-top: 20px;
+  order: 3;
+}
+
+.navbar-toggler {
+   order: 1; /* Toggler links */
+}
+
+.bg--dark {
+  background: #263238;
+  transition: background-color  250ms ease-in; 
+}
+
+.navbar-brand {
+  order: 2; /* Logo rechts */
+  margin-left: auto; /* Schiebt das Logo nach rechts */
+    
+}
+
+.navbar-toggler{
+	border-color: #fff;
+  order: 1; /* Toggler links */
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active {
+  outline: none;
+	box-shadow: none;
+}
+
+/* Farbe der 3 Linien ändern */
+.navbar-toggler-icon {
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+@media (min-width: 768px) { 
+  .navbar-toggler {
+      order: 2; /* Toggler nach rechts verschieben */
+  }
+
+  .navbar-brand {
+      order: 1; /* Logo nach links verschieben */
+      margin-left: 0; /* Entfernt die Auto-Ausrichtung */
+  }
+  
+  .navbar-brand img {
+      max-width: 140px;
+  }
+  
+  .nav-item{
+      border: 0;
+  }
+
+  .nav-item a{
+      font-size: 1.2rem;
+  }	
+
+  .navbar-collapse {
+      padding-top: 0px;
+  }
+
+  .social .nav-item{
+      
+      border-bottom: 0px solid #fff;
+      margin-bottom: unset ;
+  }
+}

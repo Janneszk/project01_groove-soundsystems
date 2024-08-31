@@ -1,0 +1,40 @@
+footer {
+    background-color: #263238;
+}
+
+footer img {
+    max-width: 150px;
+}
+
+footer p{
+    font-size: 13px;
+    opacity: .5;
+}
+
+footer ul{
+    list-style: none;
+    padding: 0px 0px;
+}
+
+footer li{
+    font-size: 13px;
+    display: inline;
+}
+
+footer li a{
+    text-decoration: none;
+}
+
+footer li i{
+    padding: 0px 10px;
+}
+
+footer .logo{
+    padding-bottom: 30px;
+}
+
+@media (min-width: 992px) {
+    footer .logo{
+        padding-bottom: 0px;
+    }
+}
