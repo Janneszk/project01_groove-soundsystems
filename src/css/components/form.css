@@ -1,0 +1,33 @@
+.form-label{
+	font-weight: 500;
+}
+
+form .form-control {
+	background-color: transparent; 
+	color: var(--primary-color);
+	border-radius: 0;
+    border-color: var(--primary-color);
+}
+
+form .form-control:focus {
+	border-color: var(--primary-color); 
+	box-shadow: none; 
+}
+
+form .btn{
+	border: 1px solid var(--primary-color);
+}
+
+form .btn:hover{
+	background-color: var(--primary-color);
+	color: #fff;
+}
+
+ form .form-check-label {
+	font-size: smaller;
+ }
+
+ .checkbox-large {
+	transform: scale(1.7); 
+	margin-right: 0.5rem; 
+}

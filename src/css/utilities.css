@@ -1,0 +1,14 @@
+.ordered {
+	order: 2;
+}
+
+.ordered2{
+	order: 2;
+}
+
+@media screen and (min-width: 768px) {
+    .ordered {
+        order:unset;
+    }
+
+}
